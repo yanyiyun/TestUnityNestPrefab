@@ -5,6 +5,7 @@
 测试环境2018.4  
 点击菜单Tools/Build AssetBundles, 然后assetBundles目录可以找到编译的ab包  
 一共编译2个预制件, `canvas`和`parent`, 其中`parent`包含`canvas`  
+查看parent.manifest, 会发现依赖里面有`canvas`  
 `canvas`包含一张图片, `parent`也包含同样这张图片(本不应该包含)  
   
 ## 补充资料
